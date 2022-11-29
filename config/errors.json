@@ -1,0 +1,103 @@
+﻿[
+  {
+    "message": "El usuario no esta autorizado para realizar esta petición.",
+    "code": "IR_001",
+    "status": 401
+  },
+  {
+    "message": "No se puede realizar esta petición para la empresa con numero {0.}",
+    "code": "IR_002",
+    "status": 401
+  },
+  {
+    "message": "No se encuentra la información asociada a la empresa.",
+    "code": "IR_003",
+    "status": 404
+  },
+  {
+    "message": "El usuario no esta autorizado para realizar esta petición.",
+    "code": "IR_004",
+    "status": 401
+  },
+  {
+    "message": "El campo {0} es requerido.",
+    "code": "IR_005",
+    "status": 400
+  },
+  {
+    "message": "Error interno del servidor, comunicando el mensaje.",
+    "code": "IR_006",
+    "status": 500
+  },
+  {
+    "message": "Error porque el servicio se encuentra mal escrito.",
+    "code": "IR_007",
+    "status": 500
+  },
+  {
+    "message": "Error porque el servicio se encuentra inhabilitado.",
+    "code": "IR_008",
+    "status": 500
+  },
+
+  {
+    "message": "El tipo de dato del campo {0} no es valido, el tipo esperado es {1}.",
+    "code": "IR_009",
+    "status": 400
+  },
+
+  {
+    "message": "El tamaño del campo {0} no es valido, el tamaño esperado es {1}.",
+    "code": "IR_010",
+    "status": 400
+  },
+
+  {
+    "message": "Credenciales inválidas.",
+    "code": "AH_001",
+    "status": 401
+  },
+  {
+    "message": "El valor del campo {0} no es válido.",
+    "code": "AH_002",
+    "status": 400
+  },
+  {
+    "message": "El token de autenticación no es válido.",
+    "code": "AH_003",
+    "status": 401
+  },
+  {
+    "message": "No se pudo conectar con el servicio de autenticación.",
+    "code": "AH_004",
+    "status": 500
+  },
+  {
+    "message": "No se pudo generar el token de autenticación.",
+    "code": "AH_005",
+    "status": 500
+  },
+
+  {
+    "message": "Ocurrio un error no controlado: {0}.",
+    "code": "SYS_001",
+    "status": 500
+  },
+
+  {
+    "message": "No se ha encontrado este recurso.",
+    "code": "SYS_002",
+    "status": 404
+  },
+
+  {
+    "message": "Se supero el tiempo de espera para la petición.",
+    "code": "SYS_003",
+    "status": 408
+  },
+
+  {
+    "message": "Error desconocido.",
+    "code": "NOTFOUND"
+  }
+]
